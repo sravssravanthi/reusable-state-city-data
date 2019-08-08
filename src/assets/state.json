@@ -1,0 +1,42 @@
+[
+    {
+        "sno": "1",
+        "name": "telangana"
+    },
+    {
+        "sno": "2",
+        "name": "andhrapradesh"
+    },
+    {
+        "sno": "3",
+        "name": "uttarpradesh"
+    },
+    {
+        "sno": "4",
+        "name": "madhyapradesh"
+    },
+    {
+        "sno": "5",
+        "name": "delhi"
+    },
+    {
+        "sno": "6",
+        "name": "karnataka"
+    },
+    {
+        "sno": "7",
+        "name": "mumbai"
+    },
+    {
+        "sno": "8",
+        "name": "assam"
+    },
+    {
+        "sno": "9",
+        "name": "chathisghad"
+    },
+    {
+        "sno": "10",
+        "name": "oddisa"
+    }
+]

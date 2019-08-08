@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+    <div class="col-3">{{lable_name}}</div>
+    <div class="col-6">
+      <div class="form-group">
+        <select name="" class="form-control" id="" (change)="datafromselect()" [(ngModel)]="input_value">
+          <option *ngFor="let row of selectdata" value="{{row.sno}}">{{row.name}}</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-3"></div>
+  </div>
+</div>

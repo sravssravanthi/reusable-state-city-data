@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <div class="col-3"></div>
+    <div class="col-9">
+      <h1>Registration form</h1>
+    </div>
+  </div>
+</div>
+<app-input [lable_name]="objectdata.name" (outputdata)="nameoutput($event);"></app-input>
+<app-input [lable_name]="objectdata.email" (outputdata)="emailoutput($event);"></app-input>
+<app-input [lable_name]="objectdata.phone" (outputdata)="phoneoutput($event);"></app-input>
+<app-select [lable_name]="objectdata.state" (outputdata)="stateoutput($event);" [selectdata]="datas" (change)="getStateCities()"></app-select>
+<app-select [lable_name]="objectdata.city" (outputdata)="cityoutput($event);" [selectdata]="datas1"></app-select>
+
+
+
+<input type="button" name="" id="" value="submit" class="btn btn-success" (click)="ab();">
